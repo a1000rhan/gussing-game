@@ -1,12 +1,28 @@
 .App {
   text-align: center;
 }
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+button {
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15pt;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 84, 121, 1) 100%
+  );
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,4 +36,8 @@
 
 .App-link {
   color: #61dafb;
+}
+.title {
+  font-size: 100pt;
+  color: darkred;
 }
